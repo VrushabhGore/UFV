@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ufv.ca.abby.study_material">
+
+        <ImageView
+            android:id="@+id/study_bann"
+            android:layout_width="wrap_content"
+            android:layout_height="185dp"
+            android:layout_alignParentTop="true"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/studymaterial" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/study_bann">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <Button
+                    android:id="@+id/study_bscit"
+                    android:layout_width="match_parent"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/study_bg_rounder_corner"
+                    android:text="@string/study_material_bscit"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large" />
+
+                <Button
+                    android:id="@+id/study_bcom"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:background="@drawable/study_bg_rounder_corner"
+                    android:text="@string/study_bcom"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large" />
+
+                <Button
+                    android:id="@+id/study_ba"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/study_bg_rounder_corner"
+                    android:text="@string/study_material_ba"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large"/>
+                <Button
+                    android:id="@+id/study_bftm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:background="@drawable/study_bg_rounder_corner"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large"
+                    android:text="@string/study_material_bftm" />
+
+                <Button
+                    android:id="@+id/study_bfm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/study_bg_rounder_corner"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large"
+                    android:text="@string/study_material_bfm" />
+
+                <Button
+                    android:id="@+id/study_bim"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large"
+                    android:background="@drawable/study_bg_rounder_corner"
+                    android:text="@string/study_material_bim" />
+                <Button
+                    android:id="@+id/study_bbi"
+                    android:layout_width="match_parent"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/study_bg_rounder_corner"
+                    android:text="@string/study_material_bbi"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large" />
+                <Button
+                    android:id="@+id/study_bes"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/study_bg_rounder_corner"
+                    android:text="@string/study_material_bes"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large" />
+                <Button
+                    android:id="@+id/study_bem"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/study_bg_rounder_corner"
+                    android:text="@string/study_material_bem"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large" />
+                <Button
+                    android:id="@+id/study_bmm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/study_bg_rounder_corner"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:text="@string/study_material_bmm"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large" />
+                <Button
+                    android:id="@+id/study_baf"
+                    android:layout_width="match_parent"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/study_bg_rounder_corner"
+                    android:text="@string/study_material_baf"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large" />
+                <Button
+                    android:id="@+id/study_bms"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/study_bg_rounder_corner"
+                    android:text="@string/study_material_bms"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large" />
+
+            </LinearLayout>
+        </ScrollView>
+
+</RelativeLayout>

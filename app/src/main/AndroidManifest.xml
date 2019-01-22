@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ufv.ca.abby">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <permission
+        android:name="ufv.ca.abby.permission.MAPS_RECIEVE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="ufv.ca.kes.permission.MAPS_RECIEVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permissions.READ_GSERVICES" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ufv"
+        android:label="UFV"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".homescreen"
+            android:label="UFV"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".login" />
+        <activity android:name=".Feedback" />
+        <activity android:name=".contact_us" />
+        <activity
+            android:name=".find_us"
+            android:label="@string/nav_find_us" />
+        <activity android:name=".ufvonline" />
+        <activity android:name=".FeeCalculator" />
+        <activity android:name=".our_story" />
+        <activity android:name=".result" />
+        <activity
+            android:name=".study_material"
+            android:parentActivityName=".homescreen" />
+        <activity android:name=".notice" />
+        <activity android:name=".post_notice" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+        <activity android:name=".profile" />
+
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyAHoZnYR1qYWsL89eTUMQvyCHeyj8JUtaI" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name=".statusactivity"
+            android:parentActivityName=".profile" />
+        <activity android:name=".full_notice" />
+        <activity android:name=".study_bscit" />
+        <activity android:name=".Register" />
+        <activity android:name=".study_BES" />
+        <activity android:name=".attendance" />
+        <activity android:name=".study_ba" />
+        <activity android:name=".study_bcom" />
+        <activity android:name=".study_baf" />
+        <activity android:name=".study_bbi" />
+        <activity android:name=".study_bftm" />
+        <activity android:name=".study_bmm" />
+        <activity android:name=".study_bem" />
+        <activity android:name=".study_bfm" />
+        <activity android:name=".study_bim" />
+        <activity android:name=".study_bms" />
+        <activity android:name=".attendance_bscit" />
+        <activity android:name=".attendance_ba" />
+        <activity android:name=".attendance_baf" />
+        <activity android:name=".attendance_bftm" />
+        <activity android:name=".attendance_bfm" />
+        <activity android:name=".attendance_bbi" />
+        <activity android:name=".attendance_bcom" />
+        <activity android:name=".attendance_bim" />
+        <activity android:name=".attendance_bmm" />
+        <activity android:name=".attendance_bms" />
+        <activity android:name=".attendance_bes" />
+        <activity android:name=".attendance_bem" />
+        <activity android:name=".Events" />
+        <activity android:name=".full_event" />
+        <activity android:name=".add_event" />
+        <activity android:name=".result_bscit" />
+        <activity android:name=".result_ba" />
+        <activity android:name=".result_baf" />
+        <activity android:name=".result_bbi" />
+        <activity android:name=".result_bcom" />
+        <activity android:name=".result_bem" />
+        <activity android:name=".result_bes" />
+        <activity android:name=".result_bfm" />
+        <activity android:name=".result_bftm" />
+        <activity android:name=".result_bmm" />
+        <activity android:name=".result_bms" />
+        <activity android:name=".result_bim" />
+        <activity android:name=".splashscreen" />
+        <activity android:name=".GPACalculator"/>
+    </application>
+
+</manifest>

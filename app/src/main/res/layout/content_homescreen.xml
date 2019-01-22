@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/relative_layout_for_homescreen"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="ufv.ca.abby.homescreen"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    tools:showIn="@layout/app_bar_homescreen">
+
+
+    <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            />
+                    <Button
+                    android:id="@+id/attendance"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_bg_rounder_corner"
+                    android:drawableStart="@drawable/attendance_icon"
+                    android:includeFontPadding="false"
+                    android:drawablePadding="-15dp"
+                    android:padding="20dp"
+                    android:text="@string/home_btn_attendance"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+                <Button
+                    android:id="@+id/result"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_bg_rounder_corner"
+                    android:drawablePadding="-15dp"
+                    android:drawableStart="@drawable/result_icon"
+                    android:padding="20dp"
+                    android:text="@string/home_btn_result" />
+
+                <Button
+                    android:id="@+id/notice"
+                    style="@style/Widget.AppCompat.Button.Borderless"
+                    android:layout_width="match_parent"
+                    android:layout_height="00dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_bg_rounder_corner"
+                    android:drawablePadding="-15dp"
+                    android:drawableStart="@drawable/notice_icon"
+                    android:padding="20dp"
+                    android:text="@string/home_btn_notice" />
+
+                <Button
+                    android:id="@+id/events"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_bg_rounder_corner"
+                    android:drawablePadding="-15dp"
+                    android:drawableStart="@drawable/event_icon"
+                    android:longClickable="false"
+                    android:padding="20dp"
+                    android:text="@string/home_btn_events" />
+
+                <Button
+                    android:id="@+id/study_material"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="-15dp"
+                    android:background="@drawable/button_bg_rounder_corner"
+                    android:drawableStart="@drawable/study_material_icon"
+                    android:padding="20dp"
+                    android:text="@string/home_btn_study_material" />
+
+
+                <Button
+                    android:id="@+id/academics"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/button_bg_rounder_corner"
+                    android:padding="20dp"
+                    android:drawablePadding="-15dp"
+                    android:drawableStart="@drawable/academics_icon"
+                    android:text="@string/home_btn_academics" />
+
+                <Button
+                    android:id="@+id/about_us"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:drawablePadding="-15dp"
+                    android:drawableLeft="@drawable/about_us_icon"
+                    android:background="@drawable/button_bg_rounder_corner"
+                    android:padding="20dp"
+                    android:text="@string/home_btn_about_us" />
+        </LinearLayout>
+

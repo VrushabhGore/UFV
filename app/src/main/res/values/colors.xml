@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorAboutUs">#BF360C</color>
+    <color name="colorstudyBann">#28a7a9</color>
+    <color name="colorAttBann">#28a7a9</color>
+    <color name="grayColor">#c2c2c2</color>
+    <color name="feedback">#b13221</color>
+    <color name="Result">#860203</color>
+
+</resources>

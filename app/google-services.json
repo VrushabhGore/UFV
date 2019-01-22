@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "534612499199",
+    "firebase_url": "https://ufv-abby.firebaseio.com",
+    "project_id": "ufv-abby",
+    "storage_bucket": "ufv-abby.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:534612499199:android:087c2538a07eabf3",
+        "android_client_info": {
+          "package_name": "ufv.ca.kes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "534612499199-jtmic8ks63eihvi8usm606d10rdea1qd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ufv.ca.kes",
+            "certificate_hash": "e10ba49ebd8fc6e2052a5de45141f79773c4811d"
+          }
+        },
+        {
+          "client_id": "534612499199-72140n8lrlv9lpkakgiqq7a4eb5lcod0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoxxy9KJcOpXfISg5YhgkuAFiFpFIuLJU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "534612499199-72140n8lrlv9lpkakgiqq7a4eb5lcod0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

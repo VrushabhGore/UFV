@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ufv.ca.abby.FeeCalculator">
+
+    <EditText
+        android:id="@+id/emailedittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_your_email_id"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"/>
+    <TextView
+        style="@style/QuestionStyle"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/what_kind_of_student_are_you"
+        android:textSize="24sp"/>
+    <RadioGroup
+        android:id="@+id/radio_group-1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/domestic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:text="@string/domestic"/>
+        <RadioButton
+            android:id="@+id/international"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/international"/>
+    </RadioGroup>
+    <TextView
+        style="@style/QuestionStyle"
+        android:text="@string/how_many_credits_do_you_plan_on_taking"
+        android:textSize="24sp"/>
+    <EditText
+        android:id="@+id/numberofcredit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:inputType="number"/>
+
+    <TextView
+        style="@style/QuestionStyle"
+        android:layout_marginBottom="10dp"
+        android:text="@string/your_estimated_tution_fee_is"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:id="@+id/totalfee"
+        style="@style/QuestionStyle"
+        android:textSize="24sp"
+        tools:text="24000"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+    <Button
+        android:id="@+id/calculate"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="@string/calculate" />
+        <Button
+            android:id="@+id/sendmail"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/send_email"/>
+    </LinearLayout>
+
+</LinearLayout>

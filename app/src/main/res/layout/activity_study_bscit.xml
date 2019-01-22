@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ufv.ca.abby.study_bscit">
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/study_bscit_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/upload_study_bscit_btn"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+
+    <Button
+        android:id="@+id/upload_study_bscit_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/study_bg_rounder_corner"
+        android:text="@string/study_bscit_upload" />
+
+    <EditText
+        android:id="@+id/bscit_study_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/study_bscit_list_view"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/study_material_name"
+        android:layout_toStartOf="@+id/choose_study_bscit" />
+
+    <ImageButton
+        android:id="@+id/choose_study_bscit"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toStartOf="@+id/upload_study_bscit_btn"
+        android:background="@color/colorPrimary"
+        app:srcCompat="@drawable/ic_attach_file_black_24dp" />
+</RelativeLayout>

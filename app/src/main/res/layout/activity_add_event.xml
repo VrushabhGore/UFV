@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ufv.ca.abby.add_event">
+
+    <ImageButton
+        android:id="@+id/select_image_event"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:adjustViewBounds="true"
+        android:background="#00ffffff"
+        android:scaleType="fitXY"
+        app:srcCompat="@mipmap/add_btn" />
+
+    <EditText
+        android:id="@+id/event_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/input_outline"
+        android:ems="10"
+        android:hint="@string/event_name"
+        android:inputType="textPersonName"
+        android:padding="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="18dp"
+        android:layout_above="@+id/event_file"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/event_file"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/post_event_btn"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/input_outline"
+        android:ems="10"
+        android:hint="@string/event_detail_file_name"
+        android:padding="15dp"
+        android:layout_toStartOf="@+id/choose_file_event" />
+
+    <Button
+        android:id="@+id/post_event_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/colorPrimary"
+        android:padding="20dp"
+        android:text="@string/add_event"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/choose_file_event"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/event_name"
+        android:layout_below="@+id/event_name"
+        android:background="@color/colorPrimary"
+        android:text="@string/choose"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAttBann"
+    tools:context="ufv.ca.abby.attendance">
+
+    <ImageView
+        android:id="@+id/attbann"
+        android:layout_width="wrap_content"
+        android:layout_height="185dp"
+        android:layout_alignParentTop="true"
+        app:srcCompat="@drawable/attendance_banner"
+        android:contentDescription="@string/home_btn_attendance" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/attbann">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/attendance_bscit"
+                android:layout_width="match_parent"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:background="@drawable/attendance_bg_color"
+                android:layout_height="wrap_content"
+                android:text="BCIS"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large" />
+
+            <Button
+                android:id="@+id/attendance_bcom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:background="@drawable/attendance_bg_color"
+                android:text="@string/study_bcom"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large" />
+
+            <Button
+                android:id="@+id/attendance_ba"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:background="@drawable/attendance_bg_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/study_material_ba"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large"/>
+            <Button
+                android:id="@+id/attendance_bftm"
+                android:layout_width="match_parent"
+                android:background="@drawable/attendance_bg_color"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large"
+                android:text="@string/study_material_bftm" />
+
+            <Button
+                android:id="@+id/attendance_bfm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/attendance_bg_color"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large"
+                android:text="@string/study_material_bfm" />
+
+            <Button
+                android:id="@+id/attendance_bim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:background="@drawable/attendance_bg_color"
+                android:textStyle="bold"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large"
+                android:text="@string/study_material_bim" />
+            <Button
+                android:id="@+id/attendance_bbi"
+                android:layout_width="match_parent"
+                android:background="@drawable/attendance_bg_color"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:text="@string/study_material_bbi"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large" />
+            <Button
+                android:id="@+id/attendance_bes"
+                android:textColor="@android:color/white"
+                android:background="@drawable/attendance_bg_color"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/study_material_bes"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large" />
+            <Button
+                android:id="@+id/attendance_bem"
+                android:textColor="@android:color/white"
+                android:background="@drawable/attendance_bg_color"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/study_material_bem"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large" />
+            <Button
+                android:id="@+id/attendance_bmm"
+                android:background="@drawable/attendance_bg_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:text="@string/study_material_bmm"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large" />
+            <Button
+                android:id="@+id/attendance_baf"
+                android:layout_width="match_parent"
+                android:background="@drawable/attendance_bg_color"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"
+                android:text="@string/study_material_baf"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large" />
+            <Button
+                android:id="@+id/attendance_bms"
+                android:background="@drawable/attendance_bg_color"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/study_material_bms"
+                android:textAppearance="@style/TextAppearance.AppCompat.Light.Widget.PopupMenu.Large" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

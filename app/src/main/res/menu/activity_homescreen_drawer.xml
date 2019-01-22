@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_person_black_24dp"
+            android:title="@string/nav_profile" />
+        <item
+            android:id="@+id/nav_kesonline"
+            android:icon="@drawable/ufv"
+            android:title="UFVONLINE" />
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/feedback"
+            android:title="@string/nav_feedback" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/nav_share" />
+
+    </group>
+
+    <item android:title="@string/mav_communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_contact_us"
+                android:icon="@drawable/contact_us_icon"
+                android:title="@string/nav_contact_us"/>
+            <item
+                android:id="@+id/nav_find_us"
+                android:icon="@drawable/findus"
+                android:title="@string/nav_find_us" />
+            <item
+                android:id="@+id/nav_signout"
+                android:icon="@drawable/signout"
+                android:title="@string/nav_signout" />
+        </menu>
+    </item>
+
+</menu>
