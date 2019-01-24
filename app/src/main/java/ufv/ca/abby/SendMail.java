@@ -76,7 +76,7 @@
                     new javax.mail.Authenticator() {
                         //Authenticating the password
                         protected PasswordAuthentication getPasswordAuthentication() {
-                        return new PasswordAuthentication("testufv1234@gmail.com","Vrushabh@4");
+                        return new PasswordAuthentication("Enter your Email Here","Enter your password here")
                         }
                     });
 
